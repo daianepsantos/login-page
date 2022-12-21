@@ -9,13 +9,15 @@
 <body>
     <div>
         <h1>Login</h1>
-        <label for="inome">Email:</label>
-        <input type="email" name="nome" id="inome">
+        <form action="cadastro.php" autocomplete="off">
+            <label for="inome">Email:</label>
+            <input type="email" name="nome" id="inome">
 
-        <label for="isenha">Senha:</label>
-        <input type="password" name="senha" id="isenha">
-
-        <input type="submit" value="Enviar">
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
+            
+            <input type="submit" value="Enviar">
+        </form>
         <p>Não tem uma conta? <a href="#">Crie uma!</a></p>
     </div>
 </body>
