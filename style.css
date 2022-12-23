@@ -12,6 +12,7 @@ body {
     background-color: #1B1F27;
     box-sizing: border-box;
     color: white;
+    font-size: 1.1em;
 }
 
 div {
@@ -19,7 +20,7 @@ div {
     background-color: #282935;
     border-radius: 20px;
     position: absolute;
-    height: 350px;
+    height: 370px;
     width: 400px;
     margin: auto;
     padding: 20px;
@@ -40,6 +41,11 @@ img {
     align-items: center;
 }
 
+input.login {
+    width: 30vh;
+    height: 25px;
+}
+
 .btn {
     border-radius: 5px;
     padding: 10px;
@@ -54,7 +60,8 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    color: lightblue;
+    text-decoration: underline;
 }
 
 form {
