@@ -16,6 +16,8 @@ body {
 
 div {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+    background-color: #282935;
+    border-radius: 20px;
     position: absolute;
     height: 350px;
     width: 400px;
@@ -27,7 +29,6 @@ div {
     left: 50%;
     top: 50%;    
     transform: translate(-50%, -50%);
-    background-color: #282935;
 }
 
 h1 {
